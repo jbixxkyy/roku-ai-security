@@ -1,0 +1,18 @@
+[project]
+name = "roku-ai-security"
+version = "0.1.0"
+description = "AI-powered security camera system for Roku Smart Home cameras"
+requires-python = ">=3.14"
+dependencies = [
+    "ultralytics>=8.3.0",
+    "opencv-python-headless>=4.10.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "playwright>=1.62.0",
+    "aiofiles>=24.1.0",
+    "python-multipart>=0.0.18",
+    "requests>=2.32.0",
+]
+
+[project.scripts]
+roku-security = "app:main"

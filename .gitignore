@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyd
+storage_state.json
+events.db
+snapshots/
+recordings/
+.env
